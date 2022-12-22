@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: v1.1.0
+description: Installs the Synology CSI Driver.
+home: https://github.com/ElioLopez/helm-charts/charts/synology-csi
+keywords:
+  - Synology
+  - CSI Driver
+maintainers:
+  - name: Elio Lopez
+    url: https://github.com/ElioLopez
+name: synology-csi
+sources:
+  - https://github.com/ElioLopez/helm-charts/charts/synology-csi/tree/master
+  - https://github.com/SynologyOpenSource/synology-csi/tree/main
+version: 0.3.1 # must be SemVer 2
