@@ -3,6 +3,25 @@ entries:
   synology-csi:
   - apiVersion: v2
     appVersion: v1.1.0
+    created: "2022-12-23T10:44:45.896664986Z"
+    description: Installs the Synology CSI Driver.
+    digest: 3ca9eedfc3da1df1e886faba119fdebe5245ffb2cbb082f267bc01b10069b7e9
+    home: https://github.com/ElioLopez/helm-charts/charts/synology-csi
+    keywords:
+    - Synology
+    - CSI Driver
+    maintainers:
+    - name: Elio Lopez
+      url: https://github.com/ElioLopez
+    name: synology-csi
+    sources:
+    - https://github.com/ElioLopez/helm-charts/charts/synology-csi/tree/master
+    - https://github.com/SynologyOpenSource/synology-csi/tree/main
+    urls:
+    - https://github.com/ElioLopez/helm-charts/releases/download/synology-csi-0.3.3/synology-csi-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
+    appVersion: v1.1.0
     created: "2022-12-23T09:43:12.119851561Z"
     description: Installs the Synology CSI Driver.
     digest: ddd6bf807ee2bcfcb659324d2972c284aabd46426a34e8dd422e8d8d7cf99748
@@ -39,4 +58,4 @@ entries:
     urls:
     - https://github.com/ElioLopez/helm-charts/releases/download/synology-csi-0.3.1/synology-csi-0.3.1.tgz
     version: 0.3.1
-generated: "2022-12-23T09:43:12.119862461Z"
+generated: "2022-12-23T10:44:45.896675686Z"
