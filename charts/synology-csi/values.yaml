@@ -1,19 +1,19 @@
 ---
-nameOverride: ""
-fullnameOverride: ""
+#nameOverride: ""
+#fullnameOverride: ""
 
 # How to connect to your Synology Diskstation?
-connections:
-  - host: 192.168.1.1   # the IP V4 address of the Diskstation
-    port: 5000          # the port for connecting to the Diskstation Manager application
-    https: false        # whether the port expects HTTPS or not
-    username: username
-    password: password
-  - host: 192.168.1.1
-    port: 5001
-    https: false
-    username: username
-    password: password
+#connections:
+#  - host: 192.168.1.1   # the IP V4 address of the Diskstation
+#    port: 5000          # the port for connecting to the Diskstation Manager application
+#    https: false        # whether the port expects HTTPS or not
+#    username: username
+#    password: password
+#  - host: 192.168.1.1
+#    port: 5001
+#    https: false
+#    username: username
+#    password: password
 
 images:
   attacher:
