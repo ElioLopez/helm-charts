@@ -12,4 +12,4 @@ name: synology-csi
 sources:
   - https://github.com/ElioLopez/helm-charts/charts/synology-csi/tree/master
   - https://github.com/SynologyOpenSource/synology-csi/tree/main
-version: 0.3.2 # must be SemVer 2
+version: 0.3.3 # must be SemVer 2

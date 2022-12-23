@@ -121,9 +121,7 @@ spec:
       hostNetwork: true
       serviceAccountName: {{ include "synology-csi.fullname" $ }}-node
       volumes:
-        - name: client-info
-          secret:
-            secretName: {{ include "synology-csi.fullname" $ }}-client-info
+        - {{ include "synology-csi.clientInfoSecretVolume" $ | nindent 10 }}
         - name: device-dir
           hostPath:
             path: /dev

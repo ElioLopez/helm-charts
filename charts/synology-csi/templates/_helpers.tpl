@@ -50,3 +50,16 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 app.kubernetes.io/name: {{ include "synology-csi.name" . }}
 helm.sh/template: {{ .Template.Name | trimPrefix .Template.BasePath | trimPrefix "/" | replace "/" "_" }}
 {{- end }}
+
+{{/*
+Client Info Secret Volume:
+*/}}
+{{- define "synology-csi.clientInfoSecretVolume" -}}
+name: client-info
+secret:
+{{- if .Values.clientInfoSecretName }}
+  secretName: {{ $.Values.clientInfoSecretName }}
+{{- else }}
+  secretName: {{ include "synology-csi.fullname" . }}-client-info
+{{- end }}
+{{- end }}

@@ -1,6 +1,5 @@
 ---
-#nameOverride: ""
-#fullnameOverride: ""
+#clientInfoSecretName: ""
 
 # How to connect to your Synology Diskstation?
 #connections:
